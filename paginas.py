@@ -1,10 +1,6 @@
 import pyperclip as pyc
 import winsound as ws
 
-# 8     16      24      32      40      48      56       64     72      80
-# 88    96      104     112     120     128     136      144    152     160
-# 168   176     184     192     200     208     216      224    232     240   
-
 pagina = 8  #Numero de paginas del libro/documento
 
 arr = [2, 3, 6, 7, 4, 1, 8, 5]      # Array principal
@@ -38,3 +34,12 @@ pyc.copy(texto)
 
 
 ws.Beep(2000, 100)  # Frecuencia de 2000 Hz durante 0.1 segundos
+
+
+
+
+# numeros admiitos: multiplos de 8
+
+# 8     16      24      32      40      48      56       64     72      80
+# 88    96      104     112     120     128     136      144    152     160
+# 168   176     184     192     200     208     216      224    232     240   
