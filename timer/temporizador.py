@@ -2,7 +2,7 @@ from clear_terminal import clear_terminal as cl
 
 from time import sleep as sleep
 
-def temporizador(tiempo, dormido):
+def temporizador(tiempo, dormir):
     
     if tiempo >= 3600:
         hour = tiempo / 3600
@@ -58,7 +58,7 @@ def temporizador(tiempo, dormido):
         print("tiempo: ",tiempo)
 
 
-        if dormido:
+        if dormir:
             sleep(1)
         
         if i == 0:
