@@ -8,8 +8,8 @@ from alarma import alarma as a
 tiempo = m()
 
 
-c(tiempo, 1)
-#t(tiempo, 1)
+c(tiempo)
+#t(tiempo)
 
 
 a()

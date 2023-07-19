@@ -3,7 +3,7 @@ import clear_terminal as cl
 from time import sleep as sleep
 from barra import barra as b
 
-def cronometro(tiempo, dormido):
+def cronometro(tiempo = 15, dormir=True):
 
     hour = 0
     min = 0
@@ -45,7 +45,7 @@ def cronometro(tiempo, dormido):
         #print("tiempo: ",tiempo)
         
         
-        if dormido and (i != tiempo):
+        if dormir and (i != tiempo):
             sleep(1)
 
 
