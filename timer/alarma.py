@@ -8,7 +8,3 @@ def alarma():
         ws.Beep(frec, 500)
         print("sonando alarma: %i ---> frecuencia: %i Hz" %(i+1, frec))
         #t.sleep(0.2)
-
-def main():
-    alarma()
-
