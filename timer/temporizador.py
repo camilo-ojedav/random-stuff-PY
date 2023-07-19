@@ -1,8 +1,8 @@
-import clear_terminal as cl
+from clear_terminal import clear_terminal as cl
 
-import time as t
+from time import sleep as sleep
 
-def te(tiempo, dormido):
+def temporizador(tiempo, dormido):
     
     if tiempo >= 3600:
         hour = tiempo / 3600
@@ -18,7 +18,7 @@ def te(tiempo, dormido):
         sec = tiempo % 60
     else:
         sec = tiempo
-    cl.clear_terminal()
+    cl()
 
     for i in range(tiempo , -1, -1):
 
@@ -59,12 +59,12 @@ def te(tiempo, dormido):
 
 
         if dormido:
-            t.sleep(1)
+            sleep(1)
         
         if i == 0:
             print("")
         else:
-            cl.clear_terminal()
+            cl()
 
 
 

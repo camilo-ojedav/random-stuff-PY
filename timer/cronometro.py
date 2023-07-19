@@ -1,9 +1,9 @@
 import clear_terminal as cl
 
-import time as t
+from time import sleep as sleep
 
 
-def c(tiempo, dormido):
+def cronometro(tiempo, dormido):
 
     hour = 0
     min = 0
@@ -45,7 +45,7 @@ def c(tiempo, dormido):
         #print("tiempo: ",tiempo)
         
         if dormido and (i != tiempo):
-            t.sleep(1)
+            sleep(1)
 
 
         if i == tiempo:

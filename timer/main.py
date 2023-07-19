@@ -1,16 +1,16 @@
-import menu as m
-import cronometro as c
-import temporizador as t
-import alarma as a
+from menu import menu as m
+from cronometro import cronometro as c
+from temporizador import temporizador as t
+from alarma import alarma as a
 
 
 #tiempo = 1
-tiempo = m.menu()
+tiempo = m()
 
 
-c.c(tiempo, 1)
-#t.te(tiempo, 1)
+c(tiempo, 1)
+#t(tiempo, 1)
 
 
-a.alarma()
+a()
 
