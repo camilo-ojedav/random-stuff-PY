@@ -6,10 +6,10 @@ en un archivo llamado "credenciales.json") y descarga un libro a elección
 
 # Estructura del json
 
-{
+    {
 
-    "email": "email@email.com",
+        "email": "email@email.com",
 
-    "password": "password"
+        "password": "password"
 
-}
+    }
